@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# WeatherBot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WeatherBot takes input like (Weather, Temperature, Minimum Temp, Maximum Temp, Sunrise time, sunset time, Feels like,) followed by city name and gives you output by forecasting the weather of that particular city from Weatherbit and openWeather API
 
-## Available Scripts
+## Technology and Platform
 
-In the project directory, you can run:
+> Fulfillment has been done in Node.ja
+> For intent recognition Dialogflow is used.
+
 
 ### `npm start`
 
