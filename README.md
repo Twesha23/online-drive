@@ -17,8 +17,8 @@ To access this bot, Google Cloud Service account is needed.
    ``` Command goes here ```
 3. Create a server using ngrok
    ``` Command goes here ```
-4. In DialogFlow Agent > Create agent > train agent > Enable for webhook
-(In agent training, a city named parameter should be defined - Entity=sys.geo.city)
+4. In DialogFlow Agent > Create agent > Train agent > Enable for webhook
+***(In agent training, a city named parameter should be defined - Entity=sys.geo.city)
 5. Fulfillment > Webhook enable
 6. Enter URL which we got from NGrok Forwarding URL followed by '/webhook'
 7. Save
