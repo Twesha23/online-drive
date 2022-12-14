@@ -4,7 +4,8 @@ WeatherBot takes input like (Weather, Temperature, Minimum Temp, Maximum Temp, S
 
 ## Technology and Platform
 
-> Fulfillment has been done in Node.ja
+> Fulfillment has been done in Node.js
+
 > For intent recognition Dialogflow is used.
 
 
