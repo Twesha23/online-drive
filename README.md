@@ -14,9 +14,9 @@ To access this bot, Google Cloud Service account is needed.
 
 1. Open test.js file
 2. In terminal create a port with nodemon
-   > Command goes here
+   ``` Command goes here ```
 3. Create a server using ngrok
-   > Command goes here
+   ``` Command goes here ```
 4. In DialogFlow Agent > Create agent > train agent > Enable for webhook
 (In agent training, a city named parameter should be defined - Entity=sys.geo.city)
 5. Fulfillment > Webhook enable
