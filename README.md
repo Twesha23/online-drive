@@ -10,6 +10,7 @@ WeatherBot takes input like (Weather, Temperature, Minimum Temp, Maximum Temp, S
 
 ## Installation Steps
 > Package.json file has all the requirements necessary for this project to run. Run below command to install all the dependencies.
+
 ``` npm install ```
 
 ## Execution Steps
@@ -22,7 +23,7 @@ To access this bot, Google Cloud Service account is needed.
    ``` Command goes here ```
 4. In DialogFlow Agent > Create agent > Train agent > Enable for webhook
 
-   > (In agent training, a city named parameter should be defined - Entity=sys.geo.city)
+   **(In agent training, a city named parameter should be defined - Entity=sys.geo.city)
 5. Fulfillment > Webhook enable
 6. Enter URL which we got from NGrok Forwarding URL followed by '/webhook'
 7. Save
@@ -32,10 +33,8 @@ Done! your chatbot should be working.
 * Your chat interface will take input of city name
 * DialogFlow will get the intent by training phrases
 * Dialogflow will send the intent data in webhook
-In JS file, IntentMap will map the intent to the attached function
-In function, API gets called,
-We get json data in API
-Which is further transfered to agent
-That directly goes to the Dialogflow chat from bot side, 
-with help of Webhook, NGrok and Nodemon.
+* In JS file, IntentMap will map the intent to the attached function
+* In function, API gets called,
+* We get json data in API which is further transfered to agent
+* That directly goes to the Dialogflow chat from bot side, with help of Webhook, NGrok and Nodemon.
 
